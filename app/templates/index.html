@@ -1,0 +1,53 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>My Portfolio</title>-->
+<!--    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Welcome to My Portfolio</h1>-->
+<!--    <p>This is a simple portfolio website built with Flask.</p>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="{{ url_for('static', filename='images/myphoto.jpg') }}" alt="My Photo" class="profile-photo">
+            <h1>Vaishnavi</h1>
+        </header>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>This is a brief description about me.</p>
+        </section>
+        <section class="timeline">
+            <h2>Timeline</h2>
+            <div class="timeline-level">Level 1: Start Date - End Date</div>
+            <div class="timeline-level">Level 2: Start Date - End Date</div>
+            <div class="timeline-level">Level 3: Start Date - End Date</div>
+            <div class="timeline-level">Level 4: Start Date - End Date</div>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skill">Data Analysis and Visualization</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">C++ and Python</div>
+            <div class="skill">SQL</div>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>LeetCode Profile: <a href="https://leetcode.com/u/hinghing/">https://leetcode.com/u/hinghing/</a></p>
+            <p>Email: <a href="mailto:nbgh@gmail.com">nbgh@gmail.com</a></p>
+        </section>
+    </div>
+</body>
+</html>

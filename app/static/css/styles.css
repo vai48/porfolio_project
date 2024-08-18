@@ -1,0 +1,92 @@
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9DBBA; /* Cream color background */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #333;
+    margin-top: 10px;
+}
+
+.about-me {
+    background: linear-gradient(to right, #5B99C2, #D1E9F6);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.timeline {
+    margin: 20px 0;
+}
+
+.timeline-level {
+    background: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.timeline-level:nth-child(odd) {
+    background: #c0c0c0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.skill {
+    background: #c0e0e0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.contact {
+    margin: 20px 0;
+}
+
+.contact a {
+    color: #333;
+}
